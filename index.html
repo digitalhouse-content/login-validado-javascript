@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Proyect</title>
+</head>
+
+<body>
+
+    <form id="loginForm" novalidate>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required autocomplete="off">
+        <div id="emailError" class="error-message"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required autocomplete="off">
+        <span id="show-hide">Show/Hide</span>
+        <div id="passwordError" class="error-message"></div>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" name="confirmPassword" id="confirmPassword" required autocomplete="off">
+        <div id="confirmPasswordError" class="error-message"></div>
+
+        <input type="submit" value="Login">
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
